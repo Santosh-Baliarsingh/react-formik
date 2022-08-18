@@ -13,7 +13,7 @@ export default function FormDemo1() {
   console.log("form values ", formik.values);
   return (
     <>
-      <h2 className="text-center bg-dark p-2 text-light">Form Demo</h2>
+      <h2 className="text-center bg-dark p-2 text-light">Managing Form States in Formik</h2>
       <div className="container">
         <form>
           <label htmlFor="firstName" className="form-label fw-bold">
