@@ -3,7 +3,8 @@ import './App.css';
 // import HandlingFormSubmission from './components/HandlingFormSubmission';
 // import FormvalidationFunction from './components/FormvalidationFunction';
 // import FormValidationUsingYup from './components/FormValidationUsingYup';
-import ReduceBoilerPlate from './components/ReduceBoilerPlate';
+// import ReduceBoilerPlate from './components/ReduceBoilerPlate';
+import FormikComponents from './components/FormikComponents';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <HandlingFormSubmission/> */}
       {/* <FormvalidationFunction/> */}
       {/* <FormValidationUsingYup/> */}
-      <ReduceBoilerPlate/>
+      {/* <ReduceBoilerPlate/> */}
+      <FormikComponents/>
     </>
   );
 }
