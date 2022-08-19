@@ -24,7 +24,7 @@ export default function FormikComponents() {
       .email("Invalid Email Format!")
       .required("Email is Required!"),
   });
-  
+
   return (
     <>
       <h2 className="text-center text-light bg-dark p-2">
@@ -47,9 +47,7 @@ export default function FormikComponents() {
                 className="form-control w-50"
                 type="text"
               />
-              <p className="text-danger fw-bold">
-                <ErrorMessage name="firstName" />
-              </p>
+              <ErrorMessage name="firstName" component="p" className="text-danger fw-bold" />
             </div>
             <div>
               <label htmlFor="lastName" className="form-label fw-bold">
@@ -61,9 +59,8 @@ export default function FormikComponents() {
                 className="form-control w-50"
                 type="text"
               />
-              <p className="text-danger fw-bold">
-                <ErrorMessage name="lastName" />
-              </p>
+
+              <ErrorMessage name="lastName" component="p" className="text-danger fw-bold" />
             </div>
             <div>
               <label htmlFor="email" className="form-label fw-bold">
@@ -75,9 +72,11 @@ export default function FormikComponents() {
                 className="form-control w-50 mb-3"
                 type="email"
               />
-              <p className="text-danger fw-bold">
-                <ErrorMessage className="" name="email" />
-              </p>
+              <ErrorMessage
+                name="email"
+                component="p"
+                className="text-danger fw-bold"
+              />
             </div>
 
             <button className="btn btn-success" type="submit">
