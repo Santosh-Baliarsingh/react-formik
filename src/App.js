@@ -4,7 +4,9 @@ import './App.css';
 // import FormvalidationFunction from './components/FormvalidationFunction';
 // import FormValidationUsingYup from './components/FormValidationUsingYup';
 // import ReduceBoilerPlate from './components/ReduceBoilerPlate';
-import FormikComponents from './components/FormikComponents';
+// import FormikComponents from './components/FormikComponents';
+import NestedObjects from './components/NestedObjects';
+
 
 function App() {
   return (
@@ -15,7 +17,8 @@ function App() {
       {/* <FormvalidationFunction/> */}
       {/* <FormValidationUsingYup/> */}
       {/* <ReduceBoilerPlate/> */}
-      <FormikComponents/>
+      {/* <FormikComponents/> */}
+      <NestedObjects/>
     </>
   );
 }
